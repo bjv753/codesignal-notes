@@ -1,3 +1,5 @@
+// RibbonsCut
+
 const solve2 = (a,k) => {
       const max = Math.max(...a);
       for(let i = max; i>0; i--) {

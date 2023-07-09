@@ -1,3 +1,5 @@
+// MostFrequentElement
+
 let x = [1,5,1,2,9,2,3,3,4,6]
 let n = x.length
 

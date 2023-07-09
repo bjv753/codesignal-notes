@@ -1,3 +1,5 @@
+// StrictlyIncreasing
+
 
 let arr = [1,3,5,6,4,2]
 let n = arr.length-1
@@ -18,7 +20,7 @@ arr1.push(s2l)
 arr1.push(two)
 arr1.push(thr2l)
 
-// console.log(arr1)
+console.log(arr1)
 
 
 

@@ -1,15 +1,17 @@
+// ConcatSum
+
 // Calculate the sum of every a[i] ° a[j] 
 // concatenation for, string a = [10,2]
 
-let arr = [10,2]
-let n = arr.length
+let a = [10,2]
+let n = a.length
 let sum = 0
 
-function concatSum(arr){
+function concatSum(){
 for(i=0;i<n;i++)
       for(j=0;j<n;j++)
-           sum += Number(''+arr[j]+arr[i]);
+            sum += Number(`${a[i]}${a[j]}`);
            return sum
       }
 
-console.log(concatSum(arr))
+console.log(concatSum())

@@ -1,3 +1,5 @@
+// TinyPairs
+
 // You are given 2 arrays of integers of equal length 
 // array a, and array b and another integer k. 
 // You will be iterating through array a from left to 
